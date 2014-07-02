@@ -22,6 +22,11 @@ Next for Nate/Alan.
 * If possible, simplify the Condor config file to remove duplicates (e.g. multiple defines of the same variable)
 
 
+No Meeting 7/8 (Phil on Travel)
+Next meeting 7/15 at regular time.
+
+
+
 
 
 
