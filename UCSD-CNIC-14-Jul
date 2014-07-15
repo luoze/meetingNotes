@@ -1,0 +1,27 @@
+UCSD/CNIC Phone call 14/15 July 2014
+
+The connection problem from UCSD to CNIC, the analysis from CNIC, the reason maybe from 2 sides:
+1. the test node was deployed on virtual machine, cause the time synchronization problem.
+> CNIC provide a physical host (2400:dd01:1011:1:92b1:1cff:fe0c:7c0a) for test, maybe solve the problem.
+2. Temporary failure in name resolution (DNS)
+> maybe resolve the name locally (add to hosts)
+
+the throughput (ipv6) from CNIC to UCSD could have capability more than 500Mbps. The bandwidth between CNIC to the Gateway (in Tsinghua University) are 1Gbps.
+
+CNIC and Beihang had a meeting in 7 Jul and agree on:
+1. Beihang will deply the testing software integrated with rocks to build testbed.
+2. Beihang and CNIC will schedule some test and maybe the first step to do experiment after Beihang finish their testbed.
+
+UCSD provide a list of iso for deployment (http://central-x86-64.calit2.optiputer.net/isos)
+
+CNIC will deploy the following software to test：
+1. CentOS-updated
+2. htcondor-8.2.1
+3. idpl-config
+4. perfSONAR
+5. + rocks == base roll, kernel roll, web-server, area51
+(ipv4 ok, ipv6 need some configure)
+
+CNIC will further check the connection problem from UCSD to CNIC
+
+Next Skype meeting, 7pm 30 Jul/10am 31 Jul
